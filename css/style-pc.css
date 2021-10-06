@@ -129,9 +129,32 @@ ul.main-board li a em{position: absolute; top: 40px; left: 40px; font-size: 20px
 ul.main-board li a span.category{position: absolute; top: 50%; right: 100px; transform: translate(0,-50%); font-size: 12px;}
 ul.main-board li a span.date{position: absolute; bottom: 40px; left: 40px; font-size: 10px;}
 
-#main-news{background-color: rgba(12, 76, 163, 0.9);}
-#main-news h2{font-size: 10px;}
+#main-news{background: url('../img/main-report-bg.jpg') center center no-repeat; background-size: cover; height: 400px; color: white; position: relative;}
+#main-news::before{content:'';position: absolute; left: 0; top: 0; width:100%; height: 100%; background-color: rgba(12, 76, 163, 0.8); display: block;}
+#main-news > *{position: absolute; z-index: 10; left:50%; transform: translate(-50%,0);}
+#main-news h2{top: 100px; font-size: 10px;}
+#main-news p{top: 50%; transform: translate(-50%,-50%); font-size: 15px;}
+#main-news a{bottom: 100px; border: 1px solid #ffffff; padding: 10px 23px;}
 
+
+div.youtube{height: 615px; box-shadow: 0 30px 30px #8D8D8D;}
+p.caption{font-size: 20px; font-weight: 800; position: relative; top: 35px; left: 40px;}
+div.intent{position: relative; left: 70%;}
+div.intent > a{position: absolute; left: 200px; font-size: 20px;}
+div.intent .content{display: none; background-color: white; position: absolute; bottom: 27px; left: -140px; padding: 40px 40px;}
+
+div.intent.on .content{display: block;}
+div.intent.on .content .box{height: 250px; width: 450px; overflow: scroll}
+div.intent.on .content .box p{margin-bottom: 18px; color:rgba(0, 0, 0, 0.7);}
+div.intent.on .content a{position: absolute; top: 20px; right: 20px; color:rgba(0, 0, 0, 0.7); font-size: 18px;}
+
+ul.recruit{height: 320px; overflow: hidden; color: #ffffff}
+ul.recruit li{float: left; width: calc(50% - 10px); height: 100%; position: relative;}
+ul.recruit li.talent{background-image: url(../img/main-recruit-01.jpg); background-size: cover; margin-right: 20px;}
+ul.recruit li.job{background-image: url(../img/main-recruit-02.jpg); background-size: cover;}
+ul.recruit li a h3{position: absolute; top: 100px; left:40px; font-size: 35px;}
+ul.recruit li a h3 > span{position: absolute; top: -20px; width: 300%; font-size: 14px; font-weight: 500;}
+ul.recruit li a p{position: absolute; bottom: 100px; left: 40px;}
   /* animation keyframes */
   /*
   @keyframes show-up {
@@ -167,4 +190,4 @@ ul.main-board li a span.date{position: absolute; bottom: 40px; left: 40px; font-
 
 
 */
-}
+
