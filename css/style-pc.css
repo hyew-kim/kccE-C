@@ -80,17 +80,17 @@ body {font-family: "NanumSquare", sans-serif;font-size: 14px;color: #000000;lett
 /*#main-visual div.image-slide ul.slide > li.on span {animation: show-up 0.5s ease 1s 1 normal forwards;}
 #main-visual div.image-slide ul.slide > li.on em {animation: show-up 0.5s ease 1.5s 1 normal forwards;}*/
 #main-visual div.image-slide div.control {position: absolute;bottom: 0; right:0; width: 90%; height:90px;background-color: rgba(12, 76, 163, 0.9); color: #ffffff; font-size: 14px;}
-#main-visual div.image-slide div.control ul.title{position: absolute; left:50px; top:50%; transform: translate(0,-50%); height: 12px;}
-#main-visual div.image-slide div.control ul.title li{position: absolute; left: 0; top:0; width: 240px;display: none;}
-#main-visual div.image-slide div.control ul.title li.on{display: block;}
-#main-visual div.image-slide div.control a.scroll{position: absolute; left:50%; top: 50%; transform: translate(-50%,-50%);}
-#main-visual div.image-slide div.control p.control{position: absolute; right: 250px; top: 50%; transform: translate(0,-50%)}
-#main-visual div.image-slide div.control p.control a.play{position: relative; width: 40px; height: 40px; border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 50%; display: inline-block; vertical-align: middle; margin: 0 10px;}
-#main-visual div.image-slide div.control p.control a.play i{position: absolute;top: 50%; left: 50%; transform: translate(-50%,-50%); opacity: 0;}
-#main-visual div.image-slide div.control p.control a.play i + i{opacity: 1;}
-#main-visual div.image-slide div.control p.control a.play i.on{opacity: 1;}
-#main-visual div.image-slide div.control p.control a.play i.on + i{opacity: 0;}
-#main-visual div.image-slide div.control span.page{position: absolute; right: 150px;top: 50%; transform: translate(0,-50%);}
+#main-visual div.image-slide div.control ul.title {position: absolute; left:50px; top:50%; transform: translate(0,-50%); height: 12px;}
+#main-visual div.image-slide div.control ul.title li {position: absolute; left: 0; top:0; width: 240px;display: none;}
+#main-visual div.image-slide div.control ul.title li.on {display: block;}
+#main-visual div.image-slide div.control a.scroll {position: absolute; left:50%; top: 50%; transform: translate(-50%,-50%);}
+#main-visual div.image-slide div.control p.control {position: absolute; right: 250px; top: 50%; transform: translate(0,-50%)}
+#main-visual div.image-slide div.control p.control a.play {position: relative; width: 40px; height: 40px; border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 50%; display: inline-block; vertical-align: middle; margin: 0 10px;}
+#main-visual div.image-slide div.control p.control a.play i {position: absolute;top: 50%; left: 50%; transform: translate(-50%,-50%); opacity: 0;}
+#main-visual div.image-slide div.control p.control a.play i + i {opacity: 1;}
+#main-visual div.image-slide div.control p.control a.play i.on {opacity: 1;}
+#main-visual div.image-slide div.control p.control a.play i.on + i {opacity: 0;}
+#main-visual div.image-slide div.control span.page {position: absolute; right: 150px;top: 50%; transform: translate(0,-50%);}
 
 body.main #main > section.white {padding: 100px 0; background: white;}
 body.main #main > section.gray {background: #f5f5f5; padding: 100px 0;}
@@ -122,60 +122,60 @@ ul.business-field > li > em {display: block; text-align: center; line-height: 30
   ul.business-field > li > a div.content > .desc {font-size: 13px; font-weight: 400; margin-top: 30px;}
 }
 
-ul.main-board {width: 100%; background-color: transparent;}
+ul.main-board {width: 100%;}
 ul.main-board li {width: 100%; height: 130px; background-color: white; position: relative;}
 ul.main-board li + li {margin-top: 10px;}
-ul.main-board li a em{position: absolute; top: 40px; left: 40px; font-size: 20px;}
-ul.main-board li a span.category{position: absolute; top: 50%; right: 100px; transform: translate(0,-50%); font-size: 12px;}
-ul.main-board li a span.date{position: absolute; bottom: 40px; left: 40px; font-size: 10px;}
+ul.main-board li a em {position: absolute; top: 40px; left: 40px; font-size: 20px;}
+ul.main-board li a span.category {position: absolute; top: 50%; right: 100px; transform: translate(0,-50%); font-size: 12px;}
+ul.main-board li a span.date {position: absolute; bottom: 40px; left: 40px; font-size: 10px;}
 
-#main-news{background: url('../img/main-report-bg.jpg') center center no-repeat; background-size: cover; height: 400px; color: white; position: relative;}
-#main-news::before{content:'';position: absolute; left: 0; top: 0; width:100%; height: 100%; background-color: rgba(12, 76, 163, 0.8); display: block;}
-#main-news > *{position: absolute; z-index: 10; left:50%; transform: translate(-50%,0);}
-#main-news h2{top: 100px; font-size: 10px;}
-#main-news p{top: 50%; transform: translate(-50%,-50%); font-size: 15px;}
-#main-news a{bottom: 100px; border: 1px solid #ffffff; padding: 10px 23px;}
+#main-news {background: url('../img/main-report-bg.jpg') center center no-repeat; background-size: cover; height: 400px; color: white; position: relative;}
+#main-news::before {content:'';position: absolute; left: 0; top: 0; width:100%; height: 100%; background-color: rgba(12, 76, 163, 0.8); display: block;}
+#main-news > * {position: absolute; z-index: 10; left:50%; transform: translate(-50%,0);}
+#main-news h2 {top: 100px; font-size: 10px;}
+#main-news p {top: 50%; transform: translate(-50%,-50%); font-size: 15px;}
+#main-news a {bottom: 100px; border: 1px solid #ffffff; padding: 10px 23px;}
 
 
-div.youtube{height: 615px; box-shadow: 0 30px 30px #8D8D8D;}
-p.caption{font-size: 20px; font-weight: 800; position: relative; top: 35px; left: 40px;}
-div.intent{position: relative; left: 70%;}
-div.intent > a{position: absolute; left: 200px; font-size: 20px;}
-div.intent .content{display: none; background-color: white; position: absolute; bottom: 27px; left: -140px; padding: 40px 40px;}
+div.youtube {height: 615px; box-shadow: 0 30px 30px #8D8D8D;}
+p.caption {font-size: 20px; font-weight: 800; position: relative; top: 35px; left: 40px;}
+div.intent {position: relative; left: 70%;}
+div.intent > a {position: absolute; left: 200px; font-size: 20px;}
+div.intent .content {display: none; background-color: white; position: absolute; bottom: 27px; left: -140px; padding: 40px 40px;}
 
-div.intent.open .content{display: block;}
-div.intent.open .content .box{height: 250px; width: 450px; overflow-y: scroll}
-div.intent.open .content .box p{margin-bottom: 18px; color:rgba(0, 0, 0, 0.7);}
-div.intent.open .content a{position: absolute; top: 20px; right: 20px; color:rgba(0, 0, 0, 0.7); font-size: 18px;}
+div.intent.open .content {display: block;}
+div.intent.open .content .box {height: 250px; width: 450px; overflow-y: scroll}
+div.intent.open .content .box p {margin-bottom: 18px; color:rgba(0, 0, 0, 0.7);}
+div.intent.open .content a {position: absolute; top: 20px; right: 20px; color:rgba(0, 0, 0, 0.7); font-size: 18px;}
 
-ul.recruit{height: 320px; overflow: hidden; color: #ffffff;}
-ul.recruit li{float: left; width: calc(50% - 10px); height: 100%; position: relative;}
-ul.recruit li.talent{background-image: url(../img/main-recruit-01.jpg); background-size: cover; margin-right: 20px;}
-ul.recruit li.job{background-image: url(../img/main-recruit-02.jpg); background-size: cover;}
-ul.recruit li a h3{position: absolute; top: 100px; left:40px; font-size: 35px;}
-ul.recruit li a h3 > span{position: absolute; top: -20px; width: 300%; font-size: 14px; font-weight: 500;}
-ul.recruit li a p{position: absolute; bottom: 100px; left: 40px;}
+ul.recruit {height: 320px; overflow: hidden; color: #ffffff;}
+ul.recruit li {float: left; width: calc(50% - 10px); height: 100%; position: relative;}
+ul.recruit li.talent {background-image: url(../img/main-recruit-01.jpg); background-size: cover; margin-right: 20px;}
+ul.recruit li.job {background-image: url(../img/main-recruit-02.jpg); background-size: cover;}
+ul.recruit li a h3 {position: absolute; top: 100px; left:40px; font-size: 35px;}
+ul.recruit li a h3 > span {position: absolute; top: -20px; width: 300%; font-size: 14px; font-weight: 500;}
+ul.recruit li a p {position: absolute; bottom: 100px; left: 40px;}
 
-ul.intro{overflow: hidden;}
-ul.intro li{float: left; height: 130px; width: calc(50% - 10px); background-color: #ffffff; position: relative; box-sizing: border-box; transition: all 1s;}
-ul.intro li:first-child, ul.intro li:nth-child(2){margin-bottom: 20px;}
-ul.intro li:nth-child(2n){margin-left: 20px;}
-ul.intro li > a em.title{position: absolute; top: 50%; left: 40px; transform: translate(0, -50%); font-size: 20px; font-weight: 500;}
-ul.intro li > a p.desc{position: absolute; top: 50%; right: 40px; transform: translate(0, -50%); text-align: right; color: rgba(0, 0, 0, 0.7); font-size: 15px;} 
-ul.intro li > a p.desc:first-child{top: 60%;}
+ul.intro {overflow: hidden;}
+ul.intro li {float: left; height: 130px; width: calc(50% - 10px); background-color: #ffffff; position: relative; box-sizing: border-box; transition: all 1s;}
+ul.intro li:first-child, ul.intro li:nth-child(2) {margin-bottom: 20px;}
+ul.intro li:nth-child(2n) {margin-left: 20px;}
+ul.intro li > a em.title {position: absolute; top: 50%; left: 40px; transform: translate(0, -50%); font-size: 20px; font-weight: 500;}
+ul.intro li > a p.desc {position: absolute; top: 50%; right: 40px; transform: translate(0, -50%); text-align: right; color: rgba(0, 0, 0, 0.7); font-size: 15px;} 
+ul.intro li > a p.desc:first-child {top: 60%;}
 ul.intro li > a p.desc > em {position: absolute; bottom: 15px; right: 0; font-size: 25px; color: #000000;}
-ul.intro li:hover{border-bottom:1px solid rgba(12, 76, 163, 0.8); border-right:1px solid rgba(12, 76, 163, 0.5);}
+ul.intro li:hover {border-bottom:1px solid rgba(12, 76, 163, 0.8); border-right:1px solid rgba(12, 76, 163, 0.5);}
 
-#footer{background-color: #28282E; height: 500px; color: rgb(155, 152, 152); position: relative;}
-#footer ul.link{padding: 80px 100px; font-size: 12px;}
-#footer ul.link li+li{margin-top: 18px;}
-#footer div.info{position: relative; top: -30px; padding: 80px 100px; font-size: 12px;}
-#footer div.info address{margin-bottom: 10px;}
-#footer div.site{position: absolute; top: 80px; right: 100px; width: 200px;}
-#footer div.site > a{display: block; border-bottom: 1px solid rgba(155, 152, 152); padding: 15px;}
-#footer div.site ul{overflow-y: scroll; height: 240px; display: none;}
-#footer div.site.open ul{display: block;}
-#footer div.site ul li{padding: 15px;}
+#footer {background-color: #28282E; height: 500px; color: rgb(155, 152, 152); position: relative;}
+#footer ul.link {padding: 80px 100px; font-size: 12px;}
+#footer ul.link li+li {margin-top: 18px;}
+#footer div.info {position: relative; top: -30px; padding: 80px 100px; font-size: 12px;}
+#footer div.info address {margin-bottom: 10px;}
+#footer div.site {position: absolute; top: 80px; right: 100px; width: 200px;}
+#footer div.site > a {display: block; border-bottom: 1px solid rgba(155, 152, 152); padding: 15px;}
+#footer div.site ul {overflow-y: scroll; height: 240px; display: none;}
+#footer div.site.open ul {display: block;}
+#footer div.site ul li {padding: 15px;}
   /* animation keyframes */
   /*
   @keyframes show-up {
