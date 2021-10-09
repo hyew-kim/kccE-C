@@ -447,8 +447,7 @@
         $("#header").removeClass("open");
         checkScroll();
       });
-
-      checkScroll();
+      
       $(window).on("scroll", function () {
         checkScroll();
       });
@@ -460,6 +459,26 @@
         } else {
           $("#header").removeClass("white");
         }
+      }
+
+      var currentSlide = $(".slide").index($(".slide li.on").parent());
+      var prevSlide = 0;
+      var nextSlide = 0;
+      var totalSlide = $(".slide li").length;
+
+      showSlide(currentSlide);
+      $("a.prev").on("click", function(){
+        showSlide(prevSlide);
+      })
+      $("a.next").on("click", function(){
+        showSlide(nextSlide);
+      })
+      function showSlide(n){
+        $(".slide li").removeClass("on");
+        $(`.slide li:eq(${n})`).addClass("on");
+        currentSlide = n;
+        prevSlide = currentSlide === 0 ? totalSlide - 1: currentSlide - 1;
+        nextSlide = currentSlide === totalSlide - 1 ? 0 : currentSlide + 1;
       }
     </script>
   </body>
